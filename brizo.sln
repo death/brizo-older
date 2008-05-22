@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Brizo", "Brizo.vcproj", "{25AA4116-38F1-4650-824A-69F9588E0923}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{EA0407CB-5E2C-4376-A00F-A2102521738B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{25AA4116-38F1-4650-824A-69F9588E0923} = {25AA4116-38F1-4650-824A-69F9588E0923}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {74D48290-01F0-425C-84AB-0AC82CAD465E}
+		SccProjectUniqueName1 = Brizo.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectUniqueName2 = test\\test.vcproj
+		SccProjectName2 = \u0022$/Brizo/test\u0022,\u0020LGBAAAAA
+		SccLocalPath2 = test
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{25AA4116-38F1-4650-824A-69F9588E0923}.Debug.ActiveCfg = Debug|Win32
+		{25AA4116-38F1-4650-824A-69F9588E0923}.Debug.Build.0 = Debug|Win32
+		{25AA4116-38F1-4650-824A-69F9588E0923}.Release.ActiveCfg = Release|Win32
+		{25AA4116-38F1-4650-824A-69F9588E0923}.Release.Build.0 = Release|Win32
+		{EA0407CB-5E2C-4376-A00F-A2102521738B}.Debug.ActiveCfg = Debug|Win32
+		{EA0407CB-5E2C-4376-A00F-A2102521738B}.Debug.Build.0 = Debug|Win32
+		{EA0407CB-5E2C-4376-A00F-A2102521738B}.Release.ActiveCfg = Release|Win32
+		{EA0407CB-5E2C-4376-A00F-A2102521738B}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

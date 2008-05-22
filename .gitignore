@@ -1,0 +1,13 @@
+Debug
+Release
+release
+debug
+_releases
+*.ncb
+*.suo
+*~
+*.vspscc
+*.vssscc
+doc/doxy/
+*.scc
+lib
